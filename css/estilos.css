@@ -4,18 +4,33 @@ font-family: 'Asap', sans-serif;
 font-family: 'MuseoModerno', cursive;
 */
 
+*{
+    margin-inline-start: 0;
+}
+
 body{
 
     background-color: #edf7ff;
-
 }
+
+section{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+div{
+    margin: 0;
+    
+    height: 10px;
+    background-color:#0a2ff1;
+}
+
 
 h1,h3,span{
     font-family: 'MuseoModerno', cursive;
     
     
 }   
-
 
 h2,p,li{
     font-family: 'Asap', sans-serif;
@@ -27,6 +42,8 @@ h2,p,li{
 span{
     font-size: 198.66px;/*149pt*/
     color: #8a9af1;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h1,h2,h3{
@@ -35,10 +52,13 @@ h1,h2,h3{
 
 h1{
     font-size: 117.33px;/*88pt*/
+   margin-bottom: 0;
+   height: 150px;
 }
 
 h2{
     font-size: 52px;/*39pt*/
+    margin-top: 0;
 }
 
 h3{
@@ -47,4 +67,13 @@ h3{
 
 li{
     font-weight: bold;
+    margin-top: 3%;
+}
+
+p{
+    text-align: justify;
+}
+
+#ultimo{
+    margin: 0;
 }
